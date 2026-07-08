@@ -1,3 +1,4 @@
+package clases;
 import java.util.Objects;
 
 public record PushNotification(String token, String message) implements Notification {

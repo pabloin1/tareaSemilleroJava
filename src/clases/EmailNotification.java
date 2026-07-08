@@ -1,3 +1,4 @@
+package clases;
 import java.util.Objects;
 
 public record EmailNotification(String email, String subject, String body) implements Notification {

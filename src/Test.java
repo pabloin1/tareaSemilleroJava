@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
-public class App {
+import clases.EmailNotification;
+import clases.Notification;
+import clases.PushNotification;
+import clases.SmsNotification;
+
+public class Test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
